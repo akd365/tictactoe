@@ -1,0 +1,58 @@
+body {
+    background-color: #b3d9ff ;
+  }
+
+h1 {
+    color: rgb(1, 1, 121);
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    color: rgb(1, 1, 121);
+    text-align: center;
+}
+
+.main {
+  height: 500px;
+  width: 400px;
+  background-color: #99b3e6;
+  border-radius: 35px;
+  margin: auto;
+}
+
+#board {
+  margin: auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  height: 300px;
+  width: 300px;
+}
+
+.box {
+  border: 1px solid;
+  border-color: white;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  background-color: black;
+}
+
+.box:hover{
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.playAgain {
+  position: relative;
+  background-color: rgb(223, 204, 164);
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin-top: 25px;
+  margin-left: 150px;
+}
